@@ -68,3 +68,7 @@ ii. set provider and token expiration time
 Some code written is based on existing ones in these two projects: [keycloak-phone-authenticator](https://github.com/FX-HAO/keycloak-phone-authenticator)
 and [keycloak-sms-authenticator](https://github.com/gwallet/keycloak-sms-authenticator). Certainly I would have many problems
 coding all those providers blindly. Thank you!
+
+---
+# zhangzhl
+## 修正代码bug ， 增加腾讯发短信的实现（2020-07-23）
