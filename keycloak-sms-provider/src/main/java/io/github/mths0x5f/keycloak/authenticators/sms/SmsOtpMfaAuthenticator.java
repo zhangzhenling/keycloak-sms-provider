@@ -1,6 +1,5 @@
 package io.github.mths0x5f.keycloak.authenticators.sms;
 
-import io.github.mths0x5f.keycloak.providers.sms.spi.PhoneMessageService;
 import org.jboss.resteasy.spi.HttpResponse;
 import org.keycloak.authentication.AuthenticationFlowContext;
 import org.keycloak.authentication.AuthenticationFlowError;
@@ -9,6 +8,8 @@ import org.keycloak.authentication.CredentialValidator;
 import org.keycloak.common.util.ServerCookie;
 import org.keycloak.credential.CredentialProvider;
 import org.keycloak.models.*;
+
+import io.github.mths0x5f.keycloak.providers.sms.spi.PhoneMessageService;
 
 import javax.ws.rs.ForbiddenException;
 import javax.ws.rs.core.Cookie;
