@@ -14,63 +14,6 @@ import java.util.Date;
 public class TokenCodeRepresentation {
 
 	private String id;
-
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public String getPhoneNumber() {
-		return phoneNumber;
-	}
-
-	public void setPhoneNumber(String phoneNumber) {
-		this.phoneNumber = phoneNumber;
-	}
-
-	public String getCode() {
-		return code;
-	}
-
-	public void setCode(String code) {
-		this.code = code;
-	}
-
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
-	}
-
-	public Date getCreatedAt() {
-		return createdAt;
-	}
-
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
-	}
-
-	public Boolean getConfirmed() {
-		return confirmed;
-	}
-
-	public void setConfirmed(Boolean confirmed) {
-		this.confirmed = confirmed;
-	}
-
-	public void setExpiresAt(Date expiresAt) {
-		this.expiresAt = expiresAt;
-	}
-
-	public Date getExpiresAt() {
-		return expiresAt;
-	}
-
 	private String phoneNumber;
 	private String code;
 	private String type;
